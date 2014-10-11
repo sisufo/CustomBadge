@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sisufo/CustomBadge.git", :tag => "2.0" }
   s.platform     = :ios, '5.0'
   s.source_files = 'Classes'
+  s.requires_arc = false
 end
